@@ -3,4 +3,14 @@
   <ItemGroup>
     <ClCompile Include="Aqua.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ArgsManager">
+      <UniqueIdentifier>{40bc1c0b-5271-465b-90eb-dd367620fc4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArgsManager.h">
+      <Filter>ArgsManager</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

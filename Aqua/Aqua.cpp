@@ -1,6 +1,8 @@
 ﻿#include <iostream>
+#include "ArgsManager.h"
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+    ArgsManager argsManager(argc, argv);
+    std::cout << argsManager.GetArg(1) << std::endl;
 }
